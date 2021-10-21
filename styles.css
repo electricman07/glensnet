@@ -15,11 +15,30 @@ main {
 #contact {
   border: 1px solid black;
   width: 80%;
-  margin-top: 5px;
+  margin: 10px auto;
   border-radius: 5px;
   padding: 10px;
 }
 
 #contact h2 {
   text-align: center;
+}
+
+#portfolio {
+  margin: auto;
+  border: 1px solid red;
+}
+
+#portfolio h2 {
+  text-align: center;
+}
+
+#carouselCaptions {
+}
+
+.portfolio-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
