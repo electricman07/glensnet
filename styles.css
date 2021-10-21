@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*-----------------------------------
+NAVIGATION
+------------------------------------*/
+header nav ul {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+header nav li {
+  margin: 0 6px;
+}
+
+#nav {
+  list-style: none;
+}
