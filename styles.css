@@ -3,20 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*-----------------------------------
-NAVIGATION
-------------------------------------*/
-header nav ul {
-  font-size: 14px;
+
+main {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+#contact {
+  border: 1px solid black;
+  width: 80%;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-header nav li {
-  margin: 0 6px;
-}
-
-#nav {
-  list-style: none;
+#contact h2 {
+  text-align: center;
 }
