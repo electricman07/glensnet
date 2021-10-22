@@ -48,3 +48,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
+
+.card {
+  margin: 10px;
+}
