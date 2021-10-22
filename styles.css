@@ -20,6 +20,14 @@ footer {
   height: 20vh;
 }
 
+h1 {
+  font-size: 3em;
+}
+
+.tagline {
+  font-size: 2em;
+}
+
 #about {
   padding-top: 100px;
 }
