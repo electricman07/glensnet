@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  background-color: blue;
+  color: black;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -11,6 +16,7 @@ main {
   align-items: center;
   width: 100%;
   height: 100vh;
+  background-color: lightgray;
 }
 
 footer {
@@ -30,6 +36,28 @@ h1 {
 
 #about {
   padding-top: 100px;
+  background-color: rgb(12, 173, 248);
+}
+
+#portfolio {
+  margin: auto;
+  padding-top: 100px;
+}
+
+#portfolio h2 {
+  text-align: center;
+}
+
+.portfolio-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
 }
 
 #contact {
@@ -47,26 +75,4 @@ h1 {
   border: 1px solid black;
   border-radius: 10px;
   padding: 20px;
-}
-
-#portfolio {
-  margin: auto;
-  padding-top: 100px;
-  border: 1px solid red;
-}
-
-#portfolio h2 {
-  text-align: center;
-}
-
-.portfolio-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.card {
-  margin: 10px;
 }
