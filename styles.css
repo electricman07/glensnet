@@ -20,20 +20,30 @@ footer {
   height: 20vh;
 }
 
+#about {
+  padding-top: 100px;
+}
+
 #contact {
-  border: 1px solid black;
   width: 80%;
   margin: 10px auto;
-  border-radius: 5px;
   padding: 10px;
+  padding-top: 100px;
 }
 
 #contact h2 {
   text-align: center;
 }
 
+.contact-form {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 #portfolio {
   margin: auto;
+  padding-top: 100px;
   border: 1px solid red;
 }
 
