@@ -39,7 +39,7 @@ h1 {
 #about {
   padding-top: 100px;
   padding-bottom: 20px;
-  background-color: #bbdefb;
+  background-color: #e3f2fd;
 }
 
 #portfolio {
@@ -52,11 +52,15 @@ h1 {
 }
 
 .portfolio-box {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+ */
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card {
@@ -126,4 +130,16 @@ h1 {
     linear-gradient(90deg, #1986d2 2%, #42a5f5 0, #42a5f5 98%, #1986d2 0%) 0 0
       #42a5f5;
   background-size: 40px 60px;
+}
+
+@media (max-width: 1000px) {
+  .portfolio-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .portfolio-box {
+    grid-template-columns: 1fr;
+  }
 }
