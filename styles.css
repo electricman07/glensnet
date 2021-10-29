@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  background-color: blue;
+  background-color: #0d47a1;
   color: black;
 }
 
@@ -82,47 +82,48 @@ h1 {
   padding: 20px;
   background: radial-gradient(
         circle farthest-side at 0% 50%,
-        #fb1 23.5%,
+        #42a5f5 23.5%,
         rgba(240, 166, 17, 0) 0
       )
       21px 30px,
     radial-gradient(
         circle farthest-side at 0% 50%,
-        #b71 24%,
+        #1986d2 24%,
         rgba(240, 166, 17, 0) 0
       )
       19px 30px,
     linear-gradient(
-        #fb1 14%,
+        #42a5f5 14%,
         rgba(240, 166, 17, 0) 0,
         rgba(240, 166, 17, 0) 85%,
-        #fb1 0
+        #42a5f5 0
       )
       0 0,
     linear-gradient(
         150deg,
-        #fb1 24%,
-        #b71 0,
-        #b71 26%,
+        #42a5f5 24%,
+        #1986d2 0,
+        #1986d2 26%,
         rgba(240, 166, 17, 0) 0,
         rgba(240, 166, 17, 0) 74%,
-        #b71 0,
-        #b71 76%,
-        #fb1 0
+        #1986d2 0,
+        #1986d2 76%,
+        #42a5f5 0
       )
       0 0,
     linear-gradient(
         30deg,
-        #fb1 24%,
-        #b71 0,
-        #b71 26%,
+        #42a5f5 24%,
+        #1986d2 0,
+        #1986d2 26%,
         rgba(240, 166, 17, 0) 0,
         rgba(240, 166, 17, 0) 74%,
-        #b71 0,
-        #b71 76%,
-        #fb1 0
+        #1986d2 0,
+        #1986d2 76%,
+        #42a5f5 0
       )
       0 0,
-    linear-gradient(90deg, #b71 2%, #fb1 0, #fb1 98%, #b71 0%) 0 0 #fb1;
+    linear-gradient(90deg, #1986d2 2%, #42a5f5 0, #42a5f5 98%, #1986d2 0%) 0 0
+      #42a5f5;
   background-size: 40px 60px;
 }
