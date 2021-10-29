@@ -132,6 +132,34 @@ h1 {
   background-size: 40px 60px;
 }
 
+label {
+  font-weight: 700;
+}
+
+.footer-links {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.footer-header {
+  font-weight: 700;
+}
+
+.footer-details {
+  font-size: 1.4rem;
+  transition: transform 0.3s east-out;
+}
+
+.footer-details:hover {
+  transform: translateY(8px);
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
 @media (max-width: 1000px) {
   .portfolio-box {
     grid-template-columns: 1fr 1fr;
